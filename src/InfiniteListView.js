@@ -21,7 +21,7 @@ export default class InfiniteListView extends PureComponent {
         onViewItemsChanged: PropTypes.func,
         dataSource: PropTypes.array.isRequired,
         setRef: PropTypes.func,
-        renderRow: PropTypes.func.isRequired,
+        renderItem: PropTypes.func.isRequired,
         onLoadMore: PropTypes.func,
         onEndReached: PropTypes.func,
         onScroll: PropTypes.func,
@@ -40,7 +40,7 @@ export default class InfiniteListView extends PureComponent {
         onViewItemsChanged: noop,
         dataSource: [],
         setRef: null,
-        renderRow: noop,
+        renderItem: noop,
         onLoadMore: null,
         onEndReached: null,
         onScroll: null,
@@ -106,10 +106,10 @@ export default class InfiniteListView extends PureComponent {
     };
 
     _renderItem = data => {
-        const { renderRow } = this.props;
+        const { renderItem } = this.props;
 
-        if (!renderRow) {
-            console.warn('renderRow is undefined or null!');
+        if (!renderItem) {
+            console.warn('renderItem is undefined or null!');
             return null;
         }
 
@@ -117,7 +117,7 @@ export default class InfiniteListView extends PureComponent {
         return (
             <ListItem
                 ref={ref => this._addRowRefs(ref, data)}
-                viewComponent={renderRow(data)}
+                viewComponent={renderItem(data)}
             />
         );
     };

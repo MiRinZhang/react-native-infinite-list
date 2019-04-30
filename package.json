@@ -1,13 +1,31 @@
 {
-  "name": "InfiniteListView",
-  "version": "0.0.1",
-  "description": "A high performance infinite list component",
-  "main": "index.js",
-  "author": "MiRinZhang <mirinzhang@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-native": "^0.59.5"
-  }
+    "name": "InfiniteListView",
+    "version": "0.0.1",
+    "description": "A high performance infinite list component",
+    "main": "index.js",
+    "files": [
+        "src"
+    ],
+    "keywords": [
+        "react-native",
+        "FlastList",
+        "ListView",
+        "InfiniteListView",
+        "performance"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MiRinZhang/react-native-infinite-list.git"
+    },
+    "author": "MiRinZhang <mirinzhang@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MiRinZhang/react-native-infinite-list/issues"
+    },
+    "homepage": "https://github.com/MiRinZhang/react-native-infinite-list",
+    "dependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-native": "^0.59.5"
+    }
 }
