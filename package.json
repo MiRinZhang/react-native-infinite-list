@@ -1,6 +1,6 @@
 {
-    "name": "InfiniteListView",
-    "version": "0.0.1",
+    "name": "react-native-infinite-flat-list",
+    "version": "0.0.2",
     "description": "A high performance infinite list component",
     "main": "index.js",
     "files": [
@@ -8,7 +8,7 @@
     ],
     "keywords": [
         "react-native",
-        "FlastList",
+        "FlatList",
         "ListView",
         "InfiniteListView",
         "performance"

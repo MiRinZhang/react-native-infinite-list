@@ -1,5 +1,9 @@
-# react-native-infinite-list
+# react-native-infinite-flat-list
 A high performance list component
+
+### Install
+
+`yarn add react-native-infinite-flat-list`
 
 ### Usage
 
@@ -20,7 +24,7 @@ render() {
 *With this*
 
 ```javascript
-import { InfiniteListView } from './index.js'
+import { InfiniteListView } from 'react-native-infinite-flat-list'
 
 render() {
   return (
