@@ -1,0 +1,13 @@
+{
+  "name": "InfiniteListView",
+  "version": "0.0.1",
+  "description": "A high performance infinite list component",
+  "main": "index.js",
+  "author": "MiRinZhang <mirinzhang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-native": "^0.59.5"
+  }
+}
